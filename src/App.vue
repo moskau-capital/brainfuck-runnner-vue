@@ -1,7 +1,7 @@
 <template>
   <div :class="dark_mode">
   <header>
-  <h2>braifu*k editor runner</h2>
+  <h2>braifu*k web runner</h2>
   <toggle labelText="ダークモード" class="toggle" :pushed="dark_mode == 'dark'" @clicked="toggleMode()"></toggle>
   </header>
   <p>このサイトでは、web上でbrainfu*kを実行することができます。</p>
