@@ -62,6 +62,13 @@ $by-margin: 9px;
     margin-top: $by-margin;
 }
 
+@media screen and (max-width: 420px) {
+    .by.image {
+        width: 10%;
+        height: auto;
+    }
+}
+
 .author {
 
     margin-left: 1em;

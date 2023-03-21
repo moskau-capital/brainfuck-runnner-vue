@@ -10,7 +10,7 @@
   <p>実行速度設定</p>
   <br>
   <label>
-  <input type="number" class="speed" :disabled="no_wait" v-model="speed"/>文字/１秒
+  <input type="number" class="speed" :disabled="no_wait" v-model="speed"/>文字/秒
   </label>
   <p>※数字を大きくするほど速くなります。</p>
   <br>
